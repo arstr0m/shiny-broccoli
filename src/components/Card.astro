@@ -1,0 +1,23 @@
+---
+interface Props {
+    title: string;
+    body: string;
+    href: string;
+    background: string;
+}
+
+const { href, title, body, background } = Astro.props;
+---
+
+<article class="mx-auto border-x-amber-300" style={`background-image: url('${background}'); backgroud-size:cover;`}>
+    <a href={href} class=" w-full h-full p-6 flex flex-col justify-between">
+        <h2 class="text-2xl text-white mb-2">
+            {title}
+            <span>&rarr;</span>
+        </h2>
+        <p class="text-white">
+            {body}
+        </p>
+    </a>
+</article>
+
