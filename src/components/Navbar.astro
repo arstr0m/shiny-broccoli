@@ -9,9 +9,9 @@ const currentYear = new Date().getFullYear();
 const { href, title } = Astro.props;
 ---
 
-<header class=" text-white p-4 ">
-    <nav class="flex-start">
-        {navbarlinks.map(link=><a href={link.link} class="align-center rounded-lg mx-4 capitalize hover:text-black hover:bg-slate-300">{link.title}</a>)} 
+<header class=" text-white py-8 ">
+    <nav class="justify-center flex flex-wrap">
+        {navbarlinks.map(link=><a href={link.link} class="align-center rounded-lg text-xl mx-4 capitalize hover:text-black hover:bg-slate-300">{link.title}</a>)} 
     </nav>
   
   

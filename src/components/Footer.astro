@@ -8,7 +8,7 @@ const currentYear = new Date().getFullYear();
 const { href, title } = Astro.props;
 ---
 
-<footer class=" text-white p-4">
+<footer class=" text-white p-8">
     <div class="flex flex-wrap mx-auto my-2 justify-center items-center">
     {footerLinks.map(link=><a href={link.link} class="align-center mx-4 capitalize">{link.title}</a>)}
       
