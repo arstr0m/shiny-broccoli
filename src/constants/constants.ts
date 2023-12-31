@@ -6,23 +6,23 @@ export const navbarlinks = [
     },
     {
         title: "Portfolio", 
-        link: "/Portfolio"
+        link: "/portfolio"
     },
     {
         title: "Listen", 
-        link: "/Listen"
+        link: "/listen"
     },
     {
         title: "Watch", 
-        link: "/Watch"
+        link: "/watch"
     },
     {
         title: "About", 
-        link: "/About"
+        link: "/about"
     },
     {
-        title: "Shop", 
-        link: "/Shop"
+        title: "Store",
+        link: "/store"
     },
 
 ];

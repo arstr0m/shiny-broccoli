@@ -1,32 +1,28 @@
 ---
 import Card from '../components/Card.astro';
+import Subscribe from '../components/Subscribe.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Home">
-	
-	<main class="h-screen flex justify-center items-center">
-		<h2 class="text-3xl text-white mx-auto">Nothing to see over here</h2>
-		<div class="grid grid-cols-2 gap-4">
+	<main class="h-screen flex flex-col justify-center items-center mx-auto">
+		<h2 class="text-4xl uppercase text-white mx-4">Coming Soon 🌠🪐</h2>
+		<div class="grid grid-cols-2 gap-4 my-8">
 		  <Card
-			title="Nothing here yet"
+			title="Nothing here yet🤧"
 			body="Come here soon"
 			href="/"
-			background="../../public/star-fall-2-svgrepo-com.svg"
+			background="../../public/back.svg"
 		  />
 		  <Card
-			title="Nothing here yet"
+			title="Nothing here either🥹"
 			body="Come here soon"
 			href="/"
-			background="../../public/star-fall-2-svgrepo-com.svg"
+			background="../../public/back.svg"
 		  />
-		  <Card
-			title="Nothing here yet"
-			body="Come here soon"
-			href="/"
-			background="../../public/star-fall-2-svgrepo-com.svg"
-		  />
+		  
 		</div>
+		<Subscribe/>
 	  </main>
 	  
 </Layout>
